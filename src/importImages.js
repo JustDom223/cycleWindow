@@ -1,4 +1,3 @@
-import createImg from "./createImg";
 
 
 export default function importImages(imgArray){
@@ -13,3 +12,13 @@ export default function importImages(imgArray){
     });
     return configuredImgs
 }
+
+function createImg(importedImg, assignedClass, assignedID) {
+    const image = new Image();
+    image.src = importedImg;
+    image.classList.add(assignedClass);
+    image.id = assignedID;
+  
+    return image;
+  }
+  
