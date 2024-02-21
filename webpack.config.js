@@ -30,7 +30,7 @@ module.exports = {
                 use: ["style-loader", "css-loader"],
             },
             {
-                test: /\.(pmn|svg|jpg|jpeg|gif)$/i,
+                test: /\.(pmn|svg|jpg|jpeg|gif|png)$/i,
                 type: "asset/resource",
             },
         ],
