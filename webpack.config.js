@@ -37,7 +37,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: "WebpackBoiler",
+            title: "CycleWindow",
             filename: "index.html",
             template: "./src/template.html",
         }),

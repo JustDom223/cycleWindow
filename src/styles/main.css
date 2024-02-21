@@ -1,0 +1,30 @@
+*{
+    border: 1px solid red;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+#imgWindow{
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+#imgSlider{
+    position: absolute;
+    left: -100%;
+    /* top: 50%; */
+    height: 400px;
+    width: 1200px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
